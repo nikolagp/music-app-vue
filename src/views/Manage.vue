@@ -2,7 +2,7 @@
   <!-- Main Content -->
   <section class="container mx-auto mt-6">
     <div class="md:grid md:grid-cols-3 md:gap-4">
-      <app-upload :addSong="addSong" />
+      <upload :addSong="addSong" />
       <div class="col-span-2">
         <div
           class="relative flex flex-col bg-white border border-gray-200 rounded"
