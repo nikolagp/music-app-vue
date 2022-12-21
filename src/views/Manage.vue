@@ -33,14 +33,14 @@
 
 <script>
 // import useUserStore from "@/stores/user";
-import AppUpload from "@/components/upload.vue";
+import Upload from "@/components/upload.vue";
 import { songsCollection, auth } from "@/includes/firebase";
 import CompositionItem from "@/components/CompositionItem.vue";
 
 export default {
   name: "manage",
   components: {
-    AppUpload,
+    Upload,
     CompositionItem,
   },
   data() {
