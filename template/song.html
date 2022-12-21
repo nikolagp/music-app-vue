@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Music Template</title>
+
+    <!-- CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="pb-24 font-sans bg-gray-100">
+    <!-- Header -->
+    <header id="header" class="bg-gray-700">
+      <nav class="container flex items-center justify-start px-4 py-5 mx-auto">
+        <!-- App Name -->
+        <a class="mr-4 text-2xl font-bold text-white uppercase" href="#"
+          >Music</a
+        >
+
+        <div class="flex items-center flex-grow">
+          <!-- Primary Navigation -->
+          <ul class="flex flex-row mt-1">
+            <!-- Navigation Links -->
+            <li>
+              <a class="px-2 text-white" href="#">Login / Register</a>
+            </li>
+            <li>
+              <a class="px-2 text-white" href="#">Manage</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Music Header -->
+    <section class="relative w-full mb-8 text-center text-white py-14">
+      <div
+        class="box-border absolute inset-0 w-full h-full bg-contain music-bg"
+        style="background-image: url(/assets/img/song-header.png)"
+      ></div>
+      <div class="container flex items-center mx-auto">
+        <!-- Play/Pause Button -->
+        <button
+          type="button"
+          class="z-50 w-24 h-24 text-3xl text-black bg-white rounded-full focus:outline-none"
+        >
+          <i class="fas fa-play"></i>
+        </button>
+        <div class="z-50 ml-8 text-left">
+          <!-- Song Info -->
+          <div class="text-3xl font-bold">Song Title</div>
+          <div>Blues Rock</div>
+        </div>
+      </div>
+    </section>
+    <!-- Form -->
+    <section class="container mx-auto mt-6">
+      <div
+        class="relative flex flex-col bg-white border border-gray-200 rounded"
+      >
+        <div class="px-6 pt-6 pb-5 font-bold border-b border-gray-200">
+          <!-- Comment Count -->
+          <span class="card-title">Comments (15)</span>
+          <i class="float-right text-2xl text-green-400 fa fa-comments"></i>
+        </div>
+        <div class="p-6">
+          <form>
+            <textarea
+              class="block w-full py-1.5 px-3 text-gray-800 border border-gray-300 transition duration-500 focus:outline-none focus:border-black rounded mb-4"
+              placeholder="Your comment here..."
+            ></textarea>
+            <button
+              type="submit"
+              class="py-1.5 px-3 rounded text-white bg-green-600 block"
+            >
+              Submit
+            </button>
+          </form>
+          <!-- Sort Comments -->
+          <select
+            class="block mt-4 py-1.5 px-3 text-gray-800 border border-gray-300 transition duration-500 focus:outline-none focus:border-black rounded"
+          >
+            <option value="1">Latest</option>
+            <option value="2">Oldest</option>
+          </select>
+        </div>
+      </div>
+    </section>
+    <!-- Comments -->
+    <ul class="container mx-auto">
+      <li class="p-6 border border-gray-200 bg-gray-50">
+        <!-- Comment Author -->
+        <div class="mb-5">
+          <div class="font-bold">Elaine Dreyfuss</div>
+          <time>5 mins ago</time>
+        </div>
+
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium der doloremque laudantium.
+        </p>
+      </li>
+      <li class="p-6 border border-gray-200 bg-gray-50">
+        <!-- Comment Author -->
+        <div class="mb-5">
+          <div class="font-bold">Elaine Dreyfuss</div>
+          <time>5 mins ago</time>
+        </div>
+
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium der doloremque laudantium.
+        </p>
+      </li>
+      <li class="p-6 border border-gray-200 bg-gray-50">
+        <!-- Comment Author -->
+        <div class="mb-5">
+          <div class="font-bold">Elaine Dreyfuss</div>
+          <time>5 mins ago</time>
+        </div>
+
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium der doloremque laudantium.
+        </p>
+      </li>
+      <li class="p-6 border border-gray-200 bg-gray-50">
+        <!-- Comment Author -->
+        <div class="mb-5">
+          <div class="font-bold">Elaine Dreyfuss</div>
+          <time>5 mins ago</time>
+        </div>
+
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium der doloremque laudantium.
+        </p>
+      </li>
+      <li class="p-6 border border-gray-200 bg-gray-50">
+        <!-- Comment Author -->
+        <div class="mb-5">
+          <div class="font-bold">Elaine Dreyfuss</div>
+          <time>5 mins ago</time>
+        </div>
+
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium der doloremque laudantium.
+        </p>
+      </li>
+      <li class="p-6 border border-gray-200 bg-gray-50">
+        <!-- Comment Author -->
+        <div class="mb-5">
+          <div class="font-bold">Elaine Dreyfuss</div>
+          <time>5 mins ago</time>
+        </div>
+
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium der doloremque laudantium.
+        </p>
+      </li>
+    </ul>
+
+    <!-- Player -->
+    <div class="fixed bottom-0 left-0 w-full px-4 py-2 bg-white">
+      <!-- Track Info -->
+      <div class="text-center">
+        <span class="font-bold song-title">Song Title</span> by
+        <span class="song-artist">Artist</span>
+      </div>
+      <div class="flex items-center gap-4 flex-nowrap">
+        <!-- Play/Pause Button -->
+        <button type="button">
+          <i class="text-xl text-gray-500 fa fa-play"></i>
+        </button>
+        <!-- Current Position -->
+        <div class="player-currenttime">00:00</div>
+        <!-- Scrub Container  -->
+        <div class="relative w-full h-2 bg-gray-200 rounded cursor-pointer">
+          <!-- Player Ball -->
+          <span
+            class="absolute -top-2.5 -ml-2.5 text-gray-800 text-lg"
+            style="left: 50%"
+          >
+            <i class="fas fa-circle"></i>
+          </span>
+          <!-- Player Progress Bar-->
+          <span
+            class="block h-2 rounded bg-gradient-to-r from-green-500 to-green-400"
+            style="width: 50%"
+          ></span>
+        </div>
+        <!-- Duration -->
+        <div class="player-duration">03:06</div>
+      </div>
+    </div>
+  </body>
+</html>
