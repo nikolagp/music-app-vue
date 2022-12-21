@@ -3,7 +3,7 @@
     <div class="container mx-auto">
       <div class="text-white main-header-content">
         <h1 class="mb-5 text-5xl font-bold">Hauz Music</h1>
-        <p class="w-full mx-auto md:w-8/12">Hello World!!!!</p>
+        <p class="w-full mx-auto md:w-8/12">Hello World</p>
       </div>
     </div>
   </section>

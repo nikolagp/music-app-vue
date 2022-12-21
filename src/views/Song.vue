@@ -198,7 +198,7 @@ export default {
     },
   },
   async beforeRouteEnter(to, from, next) {
-    const docSnapshots = await songsCollection.doc(to.$route.params.id).get();
+    const docSnapshots = await songsCollection.doc(to.params.id).get();
 
     next((vm) => {
       if (!docSnapshots.exists) {
