@@ -8,10 +8,6 @@ This is music app where user can register as listeners or artists and can upload
 
 # Technologies in use / Tech Stack / Built with
 
-[Add the main technologies you used to build this project]
-
-**Example:**
-
   - JavaScript
   - Vue
   - Vite
